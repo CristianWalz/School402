@@ -57,10 +57,12 @@ p {
     }
 }
 .wrapper-index-img {
-  background-image: url(../img/7-index-main.jpg);
   height: 80vh;
-  background-position: top;
   padding-top: 2rem;
+  background-image: url(../img/7-index-main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   .wrapper-index__title {
     text-align: center;
@@ -184,7 +186,9 @@ p {
 .as-work-container {
   height: 70.5vh;
   background-image: url(../img/comotrabajo.jpg);
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   .ass-work__p {
     text-align: center;
@@ -194,13 +198,13 @@ p {
 }
 .as-work-container-text {
   padding-top: 1em;
+  margin: 2em;
 }
 
 @media only screen and (min-width: 768px) {
   .as-work-container {
     height: 92.5vh;
     background-image: url(../img/comotrabajo.jpg);
-    background-size: contain;
   
     .ass-work__p {
       text-align: center;
@@ -246,5 +250,25 @@ p {
     .contact-container {
       width: 400px;
     }
+  }
+}
+
+/***************** OBJETIVO TERAPEUTICO ******************/
+
+.wrapper-objetivo-terapeutico-img {
+  height: 70.5vh;
+  background-image: url(../img/5-terapia.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  text-align: center;
+  padding-top: 5em;
+}
+.wrapper-objetivo-terapeutico-p {
+
+  .wrapper-objetivo-terapeutico__p {
+    padding-top: 1em;
+    margin: 2em;
   }
 }
