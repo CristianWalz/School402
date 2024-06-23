@@ -41,7 +41,9 @@ p {
         text-align: center;
     }
     .left-container__titles {
+        font-size:large;
         text-align: center;
+        color: white;
     }
     .left-container__img {
         height: 35px;
@@ -57,7 +59,6 @@ p {
 }
 .wrapper-index {
   text-align: center;
-  margin-top: 0.5em;
 
   .wrapper-index__img {
     height: 150px;
@@ -116,6 +117,7 @@ p {
     background-color: 96C5B0;
     height: auto;
     width: 100%;
+    padding-top: 1em;
 
     .left-container {
         display: flex;
@@ -141,6 +143,12 @@ p {
       gap: 12px;
     }
  }
+ .wrapper-index {
+
+   .wrapper-index__title {
+   padding-top: 1em;
+  }
+}
  .wrapper-center {
     width: 100%;
 
@@ -165,4 +173,54 @@ p {
     text-align: center;
    }
  }
+}
+
+
+
+/***************** COMO TRABAJO ******************/
+
+.as-work-container {
+  
+  .as-work-container__img {
+    width: 100%;
+  }
+}
+
+/***************** Contacto ******************/
+
+.contact-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: lightpink;
+
+  .contact-container {
+    padding: 1rem;
+  }
+  .contact-container {
+    width: 300px;
+
+    .contact-form {
+
+      .contact-form__label {
+        font-weight: bold;
+      }
+      .contact-form__inputext {
+        width: 100%;
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .contact-wrapper {
+    
+    .contact-container {
+      width: 400px;
+    }
+  }
 }

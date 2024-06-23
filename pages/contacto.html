@@ -13,8 +13,8 @@
         <div class="left-container">
             <img class="left-container__img" src="../img/2.-Psicologia.png" alt="Logo">    
             <div class="left-container-titles">
-                <h1 class="left-container__titles">Lic.Psicologia</h1>
-                <h2 class="left-container__titles">Ana Maria Antonena</h2>
+                <h1 class="left-container__titles">Ana María Antonena</h1>
+                <h2 class="left-container__titles">Lic.Psicologia</h2>
             </div>
         </div>  
         <nav class="nav-index">
@@ -38,7 +38,27 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="contact-wrapper">
+            <div class="contact-container">
+                <form class="contact-form" action="">
+                    <label class="contact-form__label" for="nombre-y-apellido">
+                        Nombre y Apellido
+                    </label>
+                    <input class="contact-form__inputext" type="text" value="">
+
+                    <label class="contact-form__label" for="email">Email</label>
+                    <input class="contact-form__inputext" type="text" value="">
+
+                    <label class="contact-form__label" for="tel">Teléfono</label>
+                    <input class="contact-form__inputext" type="number" value="número" placeholder="Ingrese su número">
+
+                    <label class="contact-form__label" for="">Motivo de consulta</label>
+                    <textarea name="message" id="message" placeholder="Ingrese su motivo"></textarea>
+                    
+                    <input class="contact-form__inputext" type="submit">
+                    <input class="contact-form__inputext" type="submit" value="Resetear Formulario">
+                </form>
+            </div>
         </section>
     </main>
     <script src="./Javascript/index.js"></script>
