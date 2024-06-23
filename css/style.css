@@ -20,7 +20,6 @@ li {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 1em;
     font-weight:bold
   }
   
@@ -57,15 +56,17 @@ p {
         /* line-height: 1.5; */
     }
 }
-.wrapper-index {
-  text-align: center;
+.wrapper-index-img {
+  background-image: url(../img/7-index-main.jpg);
+  height: 80vh;
+  background-position: top;
+  padding-top: 2rem;
 
-  .wrapper-index__img {
-    height: 150px;
+  .wrapper-index__title {
+    text-align: center;
   }
-  .wrapper-index__title2 {
-    
-    color: cornflowerblue;
+  .wrapper-index__p {
+    text-align: center;
   }
 }
 
@@ -143,7 +144,8 @@ p {
       gap: 12px;
     }
  }
- .wrapper-index {
+ .wrapper-index-img {
+   height: 92.5vh;
 
    .wrapper-index__title {
    padding-top: 1em;
@@ -180,9 +182,31 @@ p {
 /***************** COMO TRABAJO ******************/
 
 .as-work-container {
+  height: 70.5vh;
+  background-image: url(../img/comotrabajo.jpg);
+  background-size: contain;
+
+  .ass-work__p {
+    text-align: center;
+    font-size:1.5rem;
+    padding-top: 1rem;
+  }
+}
+.as-work-container-text {
+  padding-top: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .as-work-container {
+    height: 92.5vh;
+    background-image: url(../img/comotrabajo.jpg);
+    background-size: contain;
   
-  .as-work-container__img {
-    width: 100%;
+    .ass-work__p {
+      text-align: center;
+      padding-top: 10rem;
+      font-size:3rem;
+    }
   }
 }
 
