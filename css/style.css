@@ -81,6 +81,9 @@ p {
       text-decoration:underline;
       color: blue;
     }
+    .container-text-center__description {
+      padding: 2em;
+    }
   }
 }
 
